@@ -9,12 +9,12 @@ body {
 }
 
 .content img {
-  margin-right: 10px;
-  margin-left: 50px;
+  margin: 0 auto;
   display: block;
 }
 
 #text {
+  margin: 0 auto;
   width: 50%;
 }
 
