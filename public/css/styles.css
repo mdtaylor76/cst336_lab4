@@ -1,4 +1,29 @@
 body {
-    background-color: #CBE2F6;
+    background-color: black;
     text-align: center;
+    color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.content img {
+  margin-right: 10px;
+  margin-left: 50px;
+  display: block;
+}
+
+#text {
+  width: 50%;
+}
+
+.nav .nav-item {
+  padding: 10px;
+}
+
+#solar_system {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }

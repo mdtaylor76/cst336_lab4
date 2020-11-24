@@ -2,6 +2,28 @@
 <html>
     <head>
         <title> The Solar System </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="/css/styles.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <br>
+        <script>console.log(<%= active %>);</script>
+        <ul class="nav nav-pills justify-content-center">
+        	<li class="nav-item">
+        		<a class="nav-link <%= active === 'home' && 'active' %>" href="/" id="home"> Solar System </a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link <%= active === 'mercury' && 'active' %>" href="/mercury" id="mercury"> Mercury </a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link <%= active === 'venus' && 'active' %>" href="/venus" id="venus"> Venus </a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link <%= active === 'earth' && 'active' %>" href="/earth" id="earth"> Earth </a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link <%= active === 'jupiter' && 'active' %>" href="/jupiter" id="jupiter"> Jupiter </a>
+        	</li>
+        </ul>
+        <br>
